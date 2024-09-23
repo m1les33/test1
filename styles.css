@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+}
+
+main{
+    font-size: 50px;
+    margin: 20px;
+    margin-left: 300px;
+}
+h1{
+    text-align: left;
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:darkred;  
+    background-color: black;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333;
+    padding: 20px;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 250px; 
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 20px; 
+}
+
+#about-main{
+    font-size: 14px;
+}
+
+nav a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #337ab7;
+}
+
+nav a.active {
+    color: #337ab7;
+}
+
+/* Add a class to hide the context by default */
+nav li .context {
+    display: none;
+}
+
+/* Style the context */
+nav li .context {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
